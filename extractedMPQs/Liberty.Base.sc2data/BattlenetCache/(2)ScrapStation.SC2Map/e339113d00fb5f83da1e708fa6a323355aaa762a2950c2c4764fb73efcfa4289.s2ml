@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="deDE">
+    <e id="1">Schrottplatz</e>
+    <e id="2">Beschützen Sie Ihren Teil der Station vor feindlichen Übergriffen. Felsen versperren den Hauptpfad zum Gegner, entlegenere Pfade liegen jedoch offen. Auf dem Luftweg ist der Feind schnell zu erreichen.</e>
+    <e id="3">Braxis Alpha (Weltraumplattform)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Benutzerdefiniert</e>
+    <e id="7">Alle Einstellungen können vom Benutzer konfiguriert werden.</e>
+    <e id="8">Benutzerdefiniert</e>
+    <e id="9">Alle Einstellungen können vom Benutzer konfiguriert werden.</e>
+    <e id="10">Nahkampf - 1vs1</e>
+    <e id="11">Zwei Spieler kämpfen bis zum Tod.</e>
+    <e id="12">Nahkampf</e>
+    <e id="13">Normale Spiele der Kategorie Nahkampf gegen andere Spieler.</e>
+    <e id="14">1vs1</e>
+    <e id="15">Zwei Spieler kämpfen bis zum Tod.</e>
+</Locale>

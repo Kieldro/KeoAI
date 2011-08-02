@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="itIT">
+    <e id="1">Sabbie ardenti (Neofita)</e>
+    <e id="2">Ci sono tre strade per arrivare al nemico. Il controllo di quelle laterali darà accesso a nuove risorse, mentre dominare il centro consentirà attacchi più veloci. Le rocce proteggono la tua base dagli attacchi d'anticipo del nemico.</e>
+    <e id="3">Mar Sara (desolazione)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Personalizzazione</e>
+    <e id="7">Tutte le impostazioni possono essere personalizzate.</e>
+    <e id="8">Personalizzazione</e>
+    <e id="9">Tutte le impostazioni possono essere personalizzate.</e>
+    <e id="10">Scontro 1v1</e>
+    <e id="11">Due giocatori si sfidano all'ultimo sangue.</e>
+    <e id="12">Scontro</e>
+    <e id="13">Partita standard contro altri giocatori.</e>
+    <e id="14">1v1</e>
+    <e id="15">Due giocatori si sfidano all'ultimo sangue.</e>
+</Locale>

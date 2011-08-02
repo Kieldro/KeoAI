@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="zhTW">
+    <e id="1">阿格利亞山谷</e>
+    <e id="2">通往敵方基地的兩條主要道路同時也貫穿高地的資源區。掌控這兩條道路即可取得地理及資源上的優勢。利用薩爾納加薩爾納加監視塔監視其它低地路徑來探查敵方動靜。</e>
+    <e id="3">阿格利亞（叢林）</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">自訂</e>
+    <e id="7">所有設定皆可自訂。</e>
+    <e id="8">自訂</e>
+    <e id="9">所有設定皆可自訂。</e>
+    <e id="10">對戰 - 1對1</e>
+    <e id="11">兩名玩家決一死戰。</e>
+    <e id="12">對戰</e>
+    <e id="13">對抗其他玩家的標準對戰。</e>
+    <e id="14">1對1</e>
+    <e id="15">兩名玩家決死戰。</e>
+</Locale>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="plPL">
+    <e id="1">Jaskinie xel'naga</e>
+    <e id="2">Standardowe miejsce pod rozbudowę bazy jest narażone na atak. Kolejnych miejsc pod rozbudowę broni się jeszcze trudniej. Wieże xel'naga patrzą na większą część pola bitwy.</e>
+    <e id="3">Ulaan (jaskinia)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Niestandardowe</e>
+    <e id="7">Wszystkie ustawienia można dostosować.</e>
+    <e id="8">Niestandardowe</e>
+    <e id="9">Wszystkie ustawienia można dostosować.</e>
+    <e id="10">Starcie – 1 na 1</e>
+    <e id="11">Dwóch graczy toczy śmiertelny pojedynek.</e>
+    <e id="12">Starcie</e>
+    <e id="13">Standardowa potyczka z innymi graczami.</e>
+    <e id="14">1-na-1</e>
+    <e id="15">Dwoje graczy walczy na śmierć i życie.</e>
+</Locale>

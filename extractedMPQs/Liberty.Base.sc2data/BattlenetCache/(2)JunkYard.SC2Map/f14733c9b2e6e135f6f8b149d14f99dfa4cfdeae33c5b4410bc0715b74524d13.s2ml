@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="deDE">
+    <e id="1">Müllkippe</e>
+    <e id="2">Ein Hauptpfad zum Gegner zieht sich durch die Mitte. Ein zusätzlicher Pfad aus jeder Basis ist durch Felsen versperrt. Die Zerstörung dieser Felsen macht Sie angreifbarer, bietet Ihnen aber leichten Zugriff auf ergiebige Mineralienfelder.</e>
+    <e id="3">Avernus (Weltraumplatttform)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Benutzerdefiniert</e>
+    <e id="7">Alle Einstellungen können vom Benutzer konfiguriert werden.</e>
+    <e id="8">Benutzerdefiniert</e>
+    <e id="9">Alle Einstellungen können vom Benutzer konfiguriert werden.</e>
+    <e id="10">Nahkampf - 1vs1</e>
+    <e id="11">Zwei Spieler kämpfen bis zum Tod.</e>
+    <e id="12">Nahkampf</e>
+    <e id="13">Normale Spiele der Kategorie Nahkampf gegen andere Spieler.</e>
+    <e id="14">1vs1</e>
+    <e id="15">Zwei Spieler kämpfen bis zum Tod.</e>
+</Locale>

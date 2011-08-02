@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="zhCN">
+    <e id="1">热砂荒野</e>
+    <e id="2">三条地面通道通往敌方基地。控制两侧的通道可以占据额外的资源点。控制中间地带可缩短进攻的路程。</e>
+    <e id="3">玛·萨拉 （废土）</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">自定义</e>
+    <e id="7">所有设置均可自定义。</e>
+    <e id="8">自定义</e>
+    <e id="9">所有设置均可自定义。</e>
+    <e id="10">对战 1v1</e>
+    <e id="11">2名玩家的生死决战。</e>
+    <e id="12">对战</e>
+    <e id="13">同其他玩家进行标准对战游戏。</e>
+    <e id="14">1v1</e>
+    <e id="15">2名玩家的生死决战。</e>
+</Locale>

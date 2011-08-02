@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="frFR">
+    <e id="1">Désert ardent</e>
+    <e id="2">Trois chemins mènent aux positions adverses. Le contrôle des voies latérales donne accès à des ressources supplémentaires. Le contrôle du centre libère une voie d'attaque plus rapide.</e>
+    <e id="3">Mar Sara (Désert)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Personnalisé</e>
+    <e id="7">Tous les réglages peuvent être personnalisés.</e>
+    <e id="8">Personnalisé</e>
+    <e id="9">Tous les réglages peuvent être personnalisés.</e>
+    <e id="10">Mêlée 1c1</e>
+    <e id="11">Deux joueurs combattent à mort.</e>
+    <e id="12">Mêlée</e>
+    <e id="13">Une partie en mêlée standard contre d'autres joueurs.</e>
+    <e id="14">1c1</e>
+    <e id="15">Deux joueurs s'affrontent jusqu'à la mort.</e>
+</Locale>

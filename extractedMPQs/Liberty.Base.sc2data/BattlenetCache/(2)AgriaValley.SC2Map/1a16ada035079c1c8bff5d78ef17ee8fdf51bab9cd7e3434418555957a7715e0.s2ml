@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="zhCN">
+    <e id="1">阿格瑞亚山谷</e>
+    <e id="2">进攻敌人的两条主要路线是穿过高地上的分矿点。占领这里的分矿点将取得地形以及资源上的优势。敌人可能从另一条地势较低的路线逼近，而您可以借助萨尔纳加瞭望塔的视野观察他们的行踪。</e>
+    <e id="3">阿格瑞亚（丛林）</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">自定义</e>
+    <e id="7">所有设置均可自定义。</e>
+    <e id="8">自定义</e>
+    <e id="9">所有设置均可自定义。</e>
+    <e id="10">对战 1v1</e>
+    <e id="11">2名玩家的生死决战。</e>
+    <e id="12">对战</e>
+    <e id="13">同其他玩家进行标准对战游戏。</e>
+    <e id="14">1v1</e>
+    <e id="15">2名玩家的生死决战。</e>
+</Locale>

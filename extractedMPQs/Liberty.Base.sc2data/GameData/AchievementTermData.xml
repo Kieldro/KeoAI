@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CAchievementTermUnitRegen default="1" id="Combat_Mechanic_Shields_Template">
+        <Evaluate value="Expand"/>
+        <Quantity value="500"/>
+        <Vital value="Shields"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen default="1" id="Combat_Mechanic_Regen_Template">
+        <Evaluate value="Expand"/>
+        <Quantity value="500"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitDeath id="Combat_FreeForAll_Crusher">
+        <Quantity value="100"/>
+        <ValidatorArray value="TargetIsEnemy"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermAchievement id="Combat_MasterAchievement_Basic">
+        <Quantity value="3"/>
+        <ChildTable value="Challenge_TerranCombat_Basic"/>
+        <ChildTable value="Challenge_ProtossCombat_Basic"/>
+        <ChildTable value="Challenge_ZergCombat_Basic"/>
+        <ChildTable value="Challenge_TerranCovertOps_Basic"/>
+        <ChildTable value="Challenge_ProtossPsionics_Basic"/>
+        <ChildTable value="Challenge_ZergInfestation_Basic"/>
+        <ChildTable value="Challenge_AdvancedCommand_Basic"/>
+        <ChildTable value="Challenge_Economy_Basic"/>
+        <ChildTable value="Challenge_RushDefense_Basic"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Challenge_Meta_GoldCollection_1">
+        <Quantity value="1"/>
+        <ChildTable value="Challenge_TerranCombat_Dominance"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Challenge_Meta_GoldCollection_2">
+        <Quantity value="1"/>
+        <ChildTable value="Challenge_ProtossCombat_Dominance"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Challenge_Meta_GoldCollection_3">
+        <Quantity value="1"/>
+        <ChildTable value="Challenge_ZergCombat_Dominance"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Challenge_Meta_GoldCollection_4">
+        <Quantity value="1"/>
+        <ChildTable value="Challenge_TerranCovertOps_Dominance"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Challenge_Meta_GoldCollection_5">
+        <Quantity value="1"/>
+        <ChildTable value="Challenge_ProtossPsionics_Dominance"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Challenge_Meta_GoldCollection_6">
+        <Quantity value="1"/>
+        <ChildTable value="Challenge_ZergInfestation_Dominance"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Challenge_Meta_GoldCollection_7">
+        <Quantity value="1"/>
+        <ChildTable value="Challenge_AdvancedCommand_Dominance"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Challenge_Meta_GoldCollection_8">
+        <Quantity value="1"/>
+        <ChildTable value="Challenge_Economy_Dominance"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Challenge_Meta_GoldCollection_9">
+        <Quantity value="1"/>
+        <ChildTable value="Challenge_RushDefense_Dominance"/>
+    </CAchievementTermAchievement>
+    <!--=========================================================================================-->
+    <CAchievementTermAchievement id="Combat_MasterAchievement_Dominance">
+        <Quantity value="9"/>
+        <ChildTable value="Challenge_TerranCombat_Basic"/>
+        <ChildTable value="Challenge_ProtossCombat_Basic"/>
+        <ChildTable value="Challenge_ZergCombat_Basic"/>
+        <ChildTable value="Challenge_TerranCovertOps_Basic"/>
+        <ChildTable value="Challenge_ProtossPsionics_Basic"/>
+        <ChildTable value="Challenge_ZergInfestation_Basic"/>
+        <ChildTable value="Challenge_AdvancedCommand_Basic"/>
+        <ChildTable value="Challenge_Economy_Basic"/>
+        <ChildTable value="Challenge_RushDefense_Basic"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_MasterAchievement_Mastery">
+        <Quantity value="6"/>
+        <ChildTable value="Challenge_TerranCombat_Basic"/>
+        <ChildTable value="Challenge_ProtossCombat_Basic"/>
+        <ChildTable value="Challenge_ZergCombat_Basic"/>
+        <ChildTable value="Challenge_TerranCovertOps_Basic"/>
+        <ChildTable value="Challenge_ProtossPsionics_Basic"/>
+        <ChildTable value="Challenge_ZergInfestation_Basic"/>
+        <ChildTable value="Challenge_AdvancedCommand_Basic"/>
+        <ChildTable value="Challenge_Economy_Basic"/>
+        <ChildTable value="Challenge_RushDefense_Basic"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermCombine id="Combat_Mechanic_KillTransport">
+        <Quantity value="1"/>
+    </CAchievementTermCombine>
+    <CAchievementTermUnitDeath id="Combat_Mechanic_KillTransport_Overlord">
+        <Quantity value="1"/>
+        <Unit value="Overlord"/>
+        <ValidatorArray value="IsTransportFull"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_Mechanic_KillTransport_Medivac">
+        <Quantity value="1"/>
+        <Unit value="Medivac"/>
+        <ValidatorArray value="IsTransportFull"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_Mechanic_KillTransport_WarpPrismTransport">
+        <Quantity value="1"/>
+        <Unit value="WarpPrism"/>
+        <ValidatorArray value="IsTransportFull"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_Mechanic_KillTransport_WarpPrismPhasing">
+        <Quantity value="1"/>
+        <Unit value="WarpPrismPhasing"/>
+        <ValidatorArray value="IsTransportFull"/>
+    </CAchievementTermUnitDeath>
+    <!--=========================================================================================-->
+    <CAchievementTermTime id="Combat_BasicTraining_MarinesTime">
+        <Quantity value="300"/>
+    </CAchievementTermTime>
+    <CAchievementTermUnitBirth id="Combat_BasicTraining_MarinesCount">
+        <Quantity value="10"/>
+        <Unit value="Marine"/>
+    </CAchievementTermUnitBirth>
+    <CAchievementTermTime id="Combat_BasicTraining_ZerglingsTime">
+        <Quantity value="300"/>
+    </CAchievementTermTime>
+    <CAchievementTermUnitBirth id="Combat_BasicTraining_ZerglingsCount">
+        <Quantity value="20"/>
+        <Unit value="Zergling"/>
+    </CAchievementTermUnitBirth>
+    <CAchievementTermTime id="Combat_BasicTraining_ZealotsTime">
+        <Quantity value="300"/>
+    </CAchievementTermTime>
+    <CAchievementTermUnitBirth id="Combat_BasicTraining_ZealotsCount">
+        <Quantity value="5"/>
+        <Unit value="Zealot"/>
+    </CAchievementTermUnitBirth>
+    <!--=========================================================================================-->
+    <CAchievementTermTime id="Combat_FastTier2_FactoryTime">
+        <Quantity value="240"/>
+    </CAchievementTermTime>
+    <CAchievementTermUnitBirth id="Combat_FastTier2_FactoryCount">
+        <Quantity value="1"/>
+        <Unit value="Factory"/>
+    </CAchievementTermUnitBirth>
+    <CAchievementTermTime id="Combat_FastTier2_LairTime">
+        <Quantity value="240"/>
+    </CAchievementTermTime>
+    <CAchievementTermUnitBirth id="Combat_FastTier2_LairCount">
+        <Quantity value="1"/>
+        <Unit value="Lair"/>
+    </CAchievementTermUnitBirth>
+    <CAchievementTermTime id="Combat_FastTier2_TwilightCouncilTime">
+        <Quantity value="240"/>
+    </CAchievementTermTime>
+    <CAchievementTermUnitBirth id="Combat_FastTier2_TwilightCouncilCount">
+        <Quantity value="1"/>
+        <Unit value="TwilightCouncil"/>
+    </CAchievementTermUnitBirth>
+    <!--=========================================================================================-->
+    <CAchievementTermScoreValue id="Combat_Infrastructure_TerranCount">
+        <Quantity value="9"/>
+        <ScoreValue value="UnitsInProgressCount"/>
+    </CAchievementTermScoreValue>
+    <CAchievementTermScoreValue id="Combat_Infrastructure_ProtossCount">
+        <Quantity value="9"/>
+        <ScoreValue value="UnitsInProgressCount"/>
+    </CAchievementTermScoreValue>
+    <CAchievementTermScoreValue id="Combat_Infrastructure_ZergCount">
+        <Quantity value="21"/>
+        <ScoreValue value="UnitsInProgressCount"/>
+    </CAchievementTermScoreValue>
+    <!--=========================================================================================-->
+    <CAchievementTermCombine id="Combat_MapControl_DestroyConstructingTownHall">
+        <Quantity value="1"/>
+        <Type value="ValueAdd"/>
+        <ChildTable value="Combat_MapControl_DestroyCommandCenterCount"/>
+        <ChildTable value="Combat_MapControl_DestroyNexusCount"/>
+        <ChildTable value="Combat_MapControl_DestroyHatcheryCount"/>
+        <ChildTable value="Combat_MapControl_DestroyLairCount"/>
+        <ChildTable value="Combat_MapControl_DestroyHiveCount"/>
+    </CAchievementTermCombine>
+    <CAchievementTermUnitDeath id="Combat_MapControl_DestroyCommandCenterCount">
+        <Unit value="CommandCenter"/>
+        <ValidatorArray value="IsConstructing"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_MapControl_DestroyNexusCount">
+        <Unit value="Nexus"/>
+        <ValidatorArray value="IsConstructing"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_MapControl_DestroyHatcheryCount">
+        <Unit value="Hatchery"/>
+        <ValidatorArray value="IsConstructing"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_MapControl_DestroyLairCount">
+        <Unit value="Hatchery"/>
+        <ValidatorArray value="IsConstructing"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_MapControl_DestroyHiveCount">
+        <Unit value="Hatchery"/>
+        <ValidatorArray value="IsConstructing"/>
+    </CAchievementTermUnitDeath>
+    <!--=========================================================================================-->
+    <CAchievementTermAbilUse id="Combat_Economy_CancelConstructionUnderFire">
+        <AbilCmd value="BuildInProgress"/>
+        <ValidatorArray value="IsConstructionUnderFire"/>
+    </CAchievementTermAbilUse>
+    <!--=========================================================================================-->
+    <CAchievementTermScoreValue id="Combat_LowFloat_Minerals">
+        <Flags index="Notify" value="0"/>
+        <Compare value="LT"/>
+        <Evaluate value="Failed"/>
+        <Quantity value="1000"/>
+        <ScoreValue value="MineralsCurrent"/>
+    </CAchievementTermScoreValue>
+    <CAchievementTermScoreValue id="Combat_LowFloat_Vespene">
+        <Flags index="Notify" value="0"/>
+        <Compare value="LT"/>
+        <Evaluate value="Failed"/>
+        <Quantity value="1000"/>
+        <ScoreValue value="VespeneCurrent"/>
+    </CAchievementTermScoreValue>
+    <!--=========================================================================================-->
+    <CAchievementTermScoreValue id="Combat_LowIdle_Time">
+        <Flags index="Notify" value="0"/>
+        <Compare value="LT"/>
+        <Evaluate value="Failed"/>
+        <Quantity value="30"/>
+        <ScoreValue value="IdleWorkerTime"/>
+    </CAchievementTermScoreValue>
+    <!--=========================================================================================-->
+    <CAchievementTermTime id="Combat_FastExpand_Time">
+        <Quantity value="180"/>
+    </CAchievementTermTime>
+    <CAchievementTermCombine id="Combat_FastExpand_BuildingCount">
+        <Quantity value="2"/>
+        <Type value="ValueAdd"/>
+        <ChildTable value="Combat_FastExpand_CommandCenterCount"/>
+        <ChildTable value="Combat_FastExpand_NexusCount"/>
+        <ChildTable value="Combat_FastExpand_HatcheryCount"/>
+    </CAchievementTermCombine>
+    <CAchievementTermUnitBirth id="Combat_FastExpand_CommandCenterCount">
+        <Flags index="Notify" value="0"/>
+        <Unit value="CommandCenter"/>
+    </CAchievementTermUnitBirth>
+    <CAchievementTermUnitBirth id="Combat_FastExpand_NexusCount">
+        <Flags index="Notify" value="0"/>
+        <Unit value="Nexus"/>
+    </CAchievementTermUnitBirth>
+    <CAchievementTermUnitBirth id="Combat_FastExpand_HatcheryCount">
+        <Flags index="Notify" value="0"/>
+        <Unit value="Hatchery"/>
+    </CAchievementTermUnitBirth>
+    <!--=========================================================================================-->
+    <CAchievementTermCombine id="Combat_Mechanic_WarpIn">
+        <Quantity value="100"/>
+        <ChildTable value="Combat_Mechanic_WarpIn_Zealot"/>
+        <ChildTable value="Combat_Mechanic_WarpIn_Sentry"/>
+        <ChildTable value="Combat_Mechanic_WarpIn_Stalker"/>
+        <ChildTable value="Combat_Mechanic_WarpIn_HighTemplar"/>
+        <ChildTable value="Combat_Mechanic_WarpIn_DarkTemplar"/>
+    </CAchievementTermCombine>
+    <CAchievementTermAbilUse id="Combat_Mechanic_WarpIn_Zealot">
+        <AbilCmd value="WarpGateTrain,Train1"/>
+    </CAchievementTermAbilUse>
+    <CAchievementTermAbilUse id="Combat_Mechanic_WarpIn_Sentry">
+        <AbilCmd value="WarpGateTrain,Train6"/>
+    </CAchievementTermAbilUse>
+    <CAchievementTermAbilUse id="Combat_Mechanic_WarpIn_Stalker">
+        <AbilCmd value="WarpGateTrain,Train2"/>
+    </CAchievementTermAbilUse>
+    <CAchievementTermAbilUse id="Combat_Mechanic_WarpIn_HighTemplar">
+        <AbilCmd value="WarpGateTrain,Train4"/>
+    </CAchievementTermAbilUse>
+    <CAchievementTermAbilUse id="Combat_Mechanic_WarpIn_DarkTemplar">
+        <AbilCmd value="WarpGateTrain,Train5"/>
+    </CAchievementTermAbilUse>
+    <!--=========================================================================================-->
+    <CAchievementTermAbilInteract id="Combat_Mechanic_WatchTower">
+        <Evaluate value="Expand"/>
+        <Quantity value="300"/>
+        <AbilCmd value="TowerCapture"/>
+    </CAchievementTermAbilInteract>
+    <!--=========================================================================================-->
+    <CAchievementTermUnitDeath id="Combat_Mechanic_Detection">
+        <Quantity value="10"/>
+        <ValidatorArray value="TargetIsCloaked"/>
+        <ValidatorArray value="TargetIsEnemy"/>
+    </CAchievementTermUnitDeath>
+    <!--=========================================================================================-->
+    <CAchievementTermCombine id="Combat_Mechanic_Shields">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Mechanic_Shields_Probe"/>
+        <ChildTable value="Combat_Mechanic_Shields_Zealot"/>
+        <ChildTable value="Combat_Mechanic_Shields_Stalker"/>
+        <ChildTable value="Combat_Mechanic_Shields_Disruptor"/>
+        <ChildTable value="Combat_Mechanic_Shields_HighTemplar"/>
+        <ChildTable value="Combat_Mechanic_Shields_DarkTemplar"/>
+        <ChildTable value="Combat_Mechanic_Shields_Phoenix"/>
+        <ChildTable value="Combat_Mechanic_Shields_Carrier"/>
+        <ChildTable value="Combat_Mechanic_Shields_VoidRay"/>
+        <ChildTable value="Combat_Mechanic_Shields_WarpPrism"/>
+        <ChildTable value="Combat_Mechanic_Shields_Observer"/>
+        <ChildTable value="Combat_Mechanic_Shields_Colossus"/>
+        <ChildTable value="Combat_Mechanic_Shields_Immortal"/>
+    </CAchievementTermCombine>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_Shields_Probe" parent="Combat_Mechanic_Shields_Template">
+        <Unit value="Probe"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_Shields_Zealot" parent="Combat_Mechanic_Shields_Template">
+        <Unit value="Zealot"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_Shields_Stalker" parent="Combat_Mechanic_Shields_Template">
+        <Unit value="Stalker"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_Shields_Disruptor" parent="Combat_Mechanic_Shields_Template">
+        <Unit value="Sentry"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_Shields_HighTemplar" parent="Combat_Mechanic_Shields_Template">
+        <Unit value="HighTemplar"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_Shields_DarkTemplar" parent="Combat_Mechanic_Shields_Template">
+        <Unit value="DarkTemplar"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_Shields_Phoenix" parent="Combat_Mechanic_Shields_Template">
+        <Unit value="Phoenix"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_Shields_Carrier" parent="Combat_Mechanic_Shields_Template">
+        <Unit value="Carrier"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_Shields_VoidRay" parent="Combat_Mechanic_Shields_Template">
+        <Unit value="VoidRay"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_Shields_WarpPrism" parent="Combat_Mechanic_Shields_Template">
+        <Unit value="WarpPrism"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_Shields_Observer" parent="Combat_Mechanic_Shields_Template">
+        <Unit value="Observer"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_Shields_Colossus" parent="Combat_Mechanic_Shields_Template">
+        <Unit value="Colossus"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_Shields_Immortal" parent="Combat_Mechanic_Shields_Template">
+        <Unit value="Immortal"/>
+    </CAchievementTermUnitRegen>
+    <!--=========================================================================================-->
+    <CAchievementTermBehaviorState id="Combat_Mechanic_Repair">
+        <Quantity value="8"/>
+        <Behavior value="TerranBuildingBurnDown"/>
+    </CAchievementTermBehaviorState>
+    <!--=========================================================================================-->
+    <CAchievementTermUnitDeath id="Combat_Mechanic_HighYield">
+        <Quantity value="10"/>
+        <Unit value="RichMineralField"/>
+    </CAchievementTermUnitDeath>
+    <!--=========================================================================================-->
+    <CAchievementTermCombine id="Combat_Mechanic_RoachRegen">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Mechanic_RoachRegen_Roach"/>
+        <ChildTable value="Combat_Mechanic_RoachRegen_RoachBurrowed"/>
+    </CAchievementTermCombine>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_RoachRegen_Roach" parent="Combat_Mechanic_Regen_Template">
+        <Unit value="Roach"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermUnitRegen id="Combat_Mechanic_RoachRegen_RoachBurrowed" parent="Combat_Mechanic_Regen_Template">
+        <Unit value="RoachBurrowed"/>
+    </CAchievementTermUnitRegen>
+    <CAchievementTermAchievement id="Combat_Meta_Economy_1">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Teammatery_Repair"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_Economy_2">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_FastTier2_Factory"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_Economy_3">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Mechanic_HighYield"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_Economy_4">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_FastTier2_Lair"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_Economy_5">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_BasicTraining_Zealots"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_Economy_6">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_FastExpand"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_Economy_7">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_BasicTraining_Marines"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_Economy_8">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_FastTier2_TwilightCouncil"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_Economy_9">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_BasicTraining_Zerglings"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_1">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Mechanic_RoachRegen"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_2">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_AutoTurretSCVKills"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_3">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_LowFloat"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_4">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_TownHallDestroyer"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_5">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_NoCounterAttacks"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_6">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_MapControl_DestroyConstructingTownHall"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_7">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_LowIdle"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_8">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Micro_HotPickup"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_9">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_Changeling"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_10">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_InfestedTerrans"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_11">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_Heal"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_12">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_MULE"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_13">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Teammatery_Heal"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_14">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_Nuke"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_15">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Infrastructure_Protoss"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_16">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_SpawnLarva"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_17">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Mechanic_KillTransport"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_18">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Mechanic_Shields"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_19">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_HallucinationAbsorb"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_20">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_Snipe"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_21">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Micro_Unit20Kills"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_22">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_Seeker"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_23">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Infrastructure_Terran"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_24">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Mechanic_WarpIn"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_25">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_NeuralParasite"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_26">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Mechanic_WatchTower"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_27">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_Yamato"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_LeagueCombat_28">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Infrastructure_Zerg"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_MeleeCombat_1">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_Blink"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_MeleeCombat_2">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_DodgeSeeker"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_MeleeCombat_3">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Mechanic_Repair"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_MeleeCombat_4">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Mechanic_Detection"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_MeleeCombat_5">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_HallucinationCount"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_MeleeCombat_6">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Meatgrinder"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_MeleeCombat_7">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Economy_CancelConstructionUnderFire"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_MeleeCombat_8">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_PhasePrism"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_MeleeCombat_9">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_HighTemplarKills"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_MeleeCombat_10">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_Vortex"/>
+    </CAchievementTermAchievement>
+    <CAchievementTermAchievement id="Combat_Meta_MeleeCombat_11">
+        <Quantity value="1"/>
+        <ChildTable value="Combat_Spells_ZealotWhileZerg"/>
+    </CAchievementTermAchievement>
+    <!--=========================================================================================-->
+    <CAchievementTermAbilLoad id="Combat_Micro_HotPickup">
+        <Quantity value="1"/>
+        <AbilCmd value="MedivacTransport"/>
+        <ValidatorArray value="TargetInCombat"/>
+    </CAchievementTermAbilLoad>
+    <!--=========================================================================================-->
+    <CAchievementTermScoreValue id="Combat_Micro_Unit20Kills">
+        <Quantity value="40"/>
+        <ScoreValue value="UnitKillsPeakCount"/>
+    </CAchievementTermScoreValue>
+    <!--=========================================================================================-->
+    <CAchievementTermAbilUse id="Combat_Spells_MULE">
+        <Quantity value="30"/>
+        <AbilCmd value="CalldownMULE,Execute"/>
+    </CAchievementTermAbilUse>
+    <!--=========================================================================================-->
+    <CAchievementTermCombine id="Combat_Spells_NeuralParasite">
+        <Evaluate value="Expand"/>
+        <Quantity value="5"/>
+        <ChildTable value="Combat_Spells_NeuralParasite_Behavior"/>
+        <ChildTable value="Combat_Spells_NeuralParasite_Kills"/>
+    </CAchievementTermCombine>
+    <CAchievementTermBehaviorState id="Combat_Spells_NeuralParasite_Behavior">
+        <Behavior value="NeuralParasite"/>
+        <State value="1"/>
+    </CAchievementTermBehaviorState>
+    <CAchievementTermUnitKills id="Combat_Spells_NeuralParasite_Kills"/>
+    <!--=========================================================================================-->
+    <CAchievementTermEffectKilled id="Combat_Spells_Nuke">
+        <Quantity value="15"/>
+        <Effect value="NukeDamage"/>
+    </CAchievementTermEffectKilled>
+    <!--=========================================================================================-->
+    <CAchievementTermCombine id="Combat_Spells_PhasePrism">
+        <Quantity value="20"/>
+        <ChildTable value="Combat_Spells_PhasePrism_Zealot"/>
+        <ChildTable value="Combat_Spells_PhasePrism_Sentry"/>
+        <ChildTable value="Combat_Spells_PhasePrism_Stalker"/>
+        <ChildTable value="Combat_Spells_PhasePrism_HighTemplar"/>
+        <ChildTable value="Combat_Spells_PhasePrism_DarkTemplar"/>
+    </CAchievementTermCombine>
+    <CAchievementTermAbilUse id="Combat_Spells_PhasePrism_Zealot">
+        <AbilCmd value="WarpGateTrain,Train1"/>
+        <ValidatorArray value="IsPoweredByWarpPrism"/>
+    </CAchievementTermAbilUse>
+    <CAchievementTermAbilUse id="Combat_Spells_PhasePrism_Sentry">
+        <AbilCmd value="WarpGateTrain,Train6"/>
+        <ValidatorArray value="IsPoweredByWarpPrism"/>
+    </CAchievementTermAbilUse>
+    <CAchievementTermAbilUse id="Combat_Spells_PhasePrism_Stalker">
+        <AbilCmd value="WarpGateTrain,Train2"/>
+        <ValidatorArray value="IsPoweredByWarpPrism"/>
+    </CAchievementTermAbilUse>
+    <CAchievementTermAbilUse id="Combat_Spells_PhasePrism_HighTemplar">
+        <AbilCmd value="WarpGateTrain,Train4"/>
+        <ValidatorArray value="IsPoweredByWarpPrism"/>
+    </CAchievementTermAbilUse>
+    <CAchievementTermAbilUse id="Combat_Spells_PhasePrism_DarkTemplar">
+        <AbilCmd value="WarpGateTrain,Train5"/>
+        <ValidatorArray value="IsPoweredByWarpPrism"/>
+    </CAchievementTermAbilUse>
+    <!--=========================================================================================-->
+    <CAchievementTermEffectKilled id="Combat_Spells_Snipe">
+        <Quantity value="20"/>
+        <Effect value="SnipeDamage"/>
+    </CAchievementTermEffectKilled>
+    <!--=========================================================================================-->
+    <CAchievementTermEffectHealed id="Combat_Spells_Heal">
+        <Quantity value="5000"/>
+        <Effect value="MedivacHeal"/>
+    </CAchievementTermEffectHealed>
+    <!--=========================================================================================-->
+    <CAchievementTermEffectKilled id="Combat_Spells_AutoTurretSCVKills">
+        <Quantity value="20"/>
+        <Effect value="AutoTurret"/>
+        <ValidatorArray value="IsSCV"/>
+    </CAchievementTermEffectKilled>
+    <!--=========================================================================================-->
+    <CAchievementTermEffectKilled id="Combat_Spells_Seeker">
+        <Evaluate value="Expand"/>
+        <Quantity value="6"/>
+        <Effect value="SeekerMissileLaunchMissile"/>
+    </CAchievementTermEffectKilled>
+    <!--=========================================================================================-->
+    <CAchievementTermEffectKilled id="Combat_Spells_Yamato">
+        <Quantity value="20"/>
+        <Effect value="YamatoU"/>
+    </CAchievementTermEffectKilled>
+    <!--=========================================================================================-->
+    <CAchievementTermEffectUse id="Combat_Spells_SpawnLarva">
+        <Flags index="Persist" value="1"/>
+        <Quantity value="100"/>
+        <Effect value="LarvaRelease"/>
+    </CAchievementTermEffectUse>
+    <!--=========================================================================================-->
+    <CAchievementTermCombine id="Combat_Spells_Changeling">
+        <Flags index="Persist" value="1"/>
+        <Type value="ValueAdd"/>
+        <Quantity value="20"/>
+        <ChildTable value="Combat_Spells_Changeling_Marine"/>
+        <ChildTable value="Combat_Spells_Changeling_MarineShield"/>
+        <ChildTable value="Combat_Spells_Changeling_Zealot"/>
+        <ChildTable value="Combat_Spells_Changeling_Zergling"/>
+        <ChildTable value="Combat_Spells_Changeling_ZerglingWings"/>
+    </CAchievementTermCombine>
+    <CAchievementTermUnitDeath id="Combat_Spells_Changeling_Marine">
+        <Flags index="Notify" value="0"/>
+        <Unit value="ChangelingMarine"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_Spells_Changeling_MarineShield">
+        <Flags index="Notify" value="0"/>
+        <Unit value="ChangelingMarineShield"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_Spells_Changeling_Zealot">
+        <Flags index="Notify" value="0"/>
+        <Unit value="ChangelingZealot"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_Spells_Changeling_Zergling">
+        <Flags index="Notify" value="0"/>
+        <Unit value="ChangelingZergling"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_Spells_Changeling_ZerglingWings">
+        <Flags index="Notify" value="0"/>
+        <Unit value="ChangelingZerglingWings"/>
+    </CAchievementTermUnitDeath>
+    <!--=========================================================================================-->
+    <CAchievementTermEffectKilled id="Combat_Spells_InfestedTerrans">
+        <Effect value="InfestedGuassRifle"/>
+        <Quantity value="30"/>
+    </CAchievementTermEffectKilled>
+    <!--=========================================================================================-->
+    <CAchievementTermUnitBirth id="Combat_Spells_ZealotWhileZerg">
+        <Unit value="Zealot"/>
+        <Quantity value="1"/>
+    </CAchievementTermUnitBirth>
+    <!--=========================================================================================-->
+    <CAchievementTermAbilUse id="Combat_Spells_Blink">
+        <AbilCmd value="Blink,Execute"/>
+        <Quantity value="1"/>
+        <ValidatorArray value="IsCasterLowHealthInCombat"/>
+    </CAchievementTermAbilUse>
+    <!--=========================================================================================-->
+    <CAchievementTermCombine id="Combat_Spells_HallucinationAbsorb">
+        <Quantity value="-500"/>
+        <Type value="ValueAdd"/>
+        <Compare value="LE"/>
+        <ChildTable value="Combat_Spells_HallucinationAbsorb_Archon"/>
+        <ChildTable value="Combat_Spells_HallucinationAbsorb_Colossus"/>
+        <ChildTable value="Combat_Spells_HallucinationAbsorb_HighTemplar"/>
+        <ChildTable value="Combat_Spells_HallucinationAbsorb_Immortal"/>
+        <ChildTable value="Combat_Spells_HallucinationAbsorb_Phoenix"/>
+        <ChildTable value="Combat_Spells_HallucinationAbsorb_Probe"/>
+        <ChildTable value="Combat_Spells_HallucinationAbsorb_Stalker"/>
+        <ChildTable value="Combat_Spells_HallucinationAbsorb_VoidRay"/>
+        <ChildTable value="Combat_Spells_HallucinationAbsorb_WarpPrism"/>
+        <ChildTable value="Combat_Spells_HallucinationAbsorb_Zealot"/>
+    </CAchievementTermCombine>
+    <CAchievementTermEffectAbsorbed id="Combat_Spells_HallucinationAbsorb_Archon">
+        <Flags index="Notify" value="0"/>
+        <Effect value="HallucinationCreateArchon"/>
+    </CAchievementTermEffectAbsorbed>
+    <CAchievementTermEffectAbsorbed id="Combat_Spells_HallucinationAbsorb_Colossus">
+        <Flags index="Notify" value="0"/>
+        <Effect value="HallucinationCreateColossus"/>
+    </CAchievementTermEffectAbsorbed>
+    <CAchievementTermEffectAbsorbed id="Combat_Spells_HallucinationAbsorb_HighTemplar">
+        <Flags index="Notify" value="0"/>
+        <Effect value="HallucinationCreateHighTemplar"/>
+    </CAchievementTermEffectAbsorbed>
+    <CAchievementTermEffectAbsorbed id="Combat_Spells_HallucinationAbsorb_Immortal">
+        <Flags index="Notify" value="0"/>
+        <Effect value="HallucinationCreateImmortal"/>
+    </CAchievementTermEffectAbsorbed>
+    <CAchievementTermEffectAbsorbed id="Combat_Spells_HallucinationAbsorb_Phoenix">
+        <Flags index="Notify" value="0"/>
+        <Effect value="HallucinationCreatePhoenix"/>
+    </CAchievementTermEffectAbsorbed>
+    <CAchievementTermEffectAbsorbed id="Combat_Spells_HallucinationAbsorb_Probe">
+        <Flags index="Notify" value="0"/>
+        <Effect value="HallucinationCreateProbe"/>
+    </CAchievementTermEffectAbsorbed>
+    <CAchievementTermEffectAbsorbed id="Combat_Spells_HallucinationAbsorb_Stalker">
+        <Flags index="Notify" value="0"/>
+        <Effect value="HallucinationCreateStalker"/>
+    </CAchievementTermEffectAbsorbed>
+    <CAchievementTermEffectAbsorbed id="Combat_Spells_HallucinationAbsorb_VoidRay">
+        <Flags index="Notify" value="0"/>
+        <Effect value="HallucinationCreateVoidRay"/>
+    </CAchievementTermEffectAbsorbed>
+    <CAchievementTermEffectAbsorbed id="Combat_Spells_HallucinationAbsorb_WarpPrism">
+        <Flags index="Notify" value="0"/>
+        <Effect value="HallucinationCreateWarpPrism"/>
+    </CAchievementTermEffectAbsorbed>
+    <CAchievementTermEffectAbsorbed id="Combat_Spells_HallucinationAbsorb_Zealot">
+        <Flags index="Notify" value="0"/>
+        <Effect value="HallucinationCreateZealot"/>
+    </CAchievementTermEffectAbsorbed>
+    <!--=========================================================================================-->
+    <CAchievementTermBehaviorCount id="Combat_Spells_HallucinationCount">
+        <Quantity value="15"/>
+        <Behavior value="Hallucination"/>
+    </CAchievementTermBehaviorCount>
+    <!--=========================================================================================-->
+    <CAchievementTermUnitKills id="Combat_Spells_HighTemplarKills">
+        <Evaluate value="Expand"/>
+        <Quantity value="20"/>
+        <Unit value="HighTemplar"/>
+        <ValidatorArray value="PlayerIsZerg"/>
+    </CAchievementTermUnitKills>
+    <!--=========================================================================================-->
+    <CAchievementTermBehaviorCount id="Combat_Spells_Vortex">
+        <Quantity value="50"/>
+        <Behavior value="VortexBehaviorEnemy"/>
+    </CAchievementTermBehaviorCount>
+    <!--=========================================================================================-->
+    <CAchievementTermCombine id="Combat_Teammatery_Repair">
+        <Quantity value="1000"/>
+        <Type value="ValueAdd"/>
+        <ChildTable value="Combat_Teammatery_SCVRepair"/>
+        <ChildTable value="Combat_Teammatery_MULERepair"/>
+    </CAchievementTermCombine>
+    <CAchievementTermEffectHealed id="Combat_Teammatery_SCVRepair">
+        <Flags index="Notify" value="0"/>
+        <Effect value="Repair"/>
+        <ValidatorArray value="TargetIsAlly"/>
+    </CAchievementTermEffectHealed>
+    <CAchievementTermEffectHealed id="Combat_Teammatery_MULERepair">
+        <Flags index="Notify" value="0"/>
+        <Effect value="MULERepair"/>
+        <ValidatorArray value="TargetIsAlly"/>
+    </CAchievementTermEffectHealed>
+    <!--=========================================================================================-->
+    <CAchievementTermEffectHealed id="Combat_Teammatery_Heal">
+        <Quantity value="300"/>
+        <Effect value="MedivacHeal"/>
+        <ValidatorArray value="TargetIsAlly"/>
+    </CAchievementTermEffectHealed>
+    <!--=========================================================================================-->
+    <CAchievementTermEffectDodged id="Combat_DodgeSeeker">
+        <Quantity value="1"/>
+        <Effect value="SeekerMissileLaunchMissile"/>
+    </CAchievementTermEffectDodged>
+    <!--=========================================================================================-->
+    <CAchievementTermUnitSupplyLoss id="Combat_Meatgrinder">
+        <Quantity value="50"/>
+        <Period value="30"/>
+    </CAchievementTermUnitSupplyLoss>
+    <!--=========================================================================================-->
+    <CAchievementTermScoreValue id="Combat_NoCounterAttacks">
+        <Quantity value="20"/>
+        <ScoreValue value="UncontestedCombatTime"/>
+    </CAchievementTermScoreValue>
+    <!--=========================================================================================-->
+    <CAchievementTermCombine id="Combat_TownHallDestroyer">
+        <Quantity value="4"/>
+        <Type value="ValueAdd"/>
+        <ChildTable value="Combat_TownHallDestroyerCommandCenterCount"/>
+        <ChildTable value="Combat_TownHallDestroyerOrbitalCommandCount"/>
+        <ChildTable value="Combat_TownHallDestroyerPlanetaryFortressCount"/>
+        <ChildTable value="Combat_TownHallDestroyerNexusCount"/>
+        <ChildTable value="Combat_TownHallDestroyerHatcheryCount"/>
+        <ChildTable value="Combat_TownHallDestroyerLairCount"/>
+        <ChildTable value="Combat_TownHallDestroyerHiveCount"/>
+    </CAchievementTermCombine>
+    <CAchievementTermUnitDeath id="Combat_TownHallDestroyerCommandCenterCount">
+        <Flags index="Notify" value="0"/>
+        <Unit value="CommandCenter"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_TownHallDestroyerOrbitalCommandCount">
+        <Flags index="Notify" value="0"/>
+        <Unit value="OrbitalCommand"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_TownHallDestroyerPlanetaryFortressCount">
+        <Flags index="Notify" value="0"/>
+        <Unit value="PlanetaryFortress"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_TownHallDestroyerNexusCount">
+        <Flags index="Notify" value="0"/>
+        <Unit value="Nexus"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_TownHallDestroyerHatcheryCount">
+        <Flags index="Notify" value="0"/>
+        <Unit value="Hatchery"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_TownHallDestroyerLairCount">
+        <Flags index="Notify" value="0"/>
+        <Unit value="Hatchery"/>
+    </CAchievementTermUnitDeath>
+    <CAchievementTermUnitDeath id="Combat_TownHallDestroyerHiveCount">
+        <Flags index="Notify" value="0"/>
+        <Unit value="Hatchery"/>
+    </CAchievementTermUnitDeath>
+</Catalog>

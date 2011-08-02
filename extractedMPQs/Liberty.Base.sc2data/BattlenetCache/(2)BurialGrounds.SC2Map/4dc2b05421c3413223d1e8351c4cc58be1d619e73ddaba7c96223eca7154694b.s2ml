@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="zhTW">
+    <e id="1">死亡墓園</e>
+    <e id="2">一條蜿蜒扭曲的路徑貫穿了遠古神廟，聯繫著你與敵方。透過薩爾納加監視塔可看到大片中央區塊。 中央的高地讓新基地不易防守。</e>
+    <e id="3">蒙利斯（月球地形）</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">自訂</e>
+    <e id="7">所有設定皆可自訂。</e>
+    <e id="8">自訂</e>
+    <e id="9">所有設定皆可自訂。</e>
+    <e id="10">對戰 - 1對1</e>
+    <e id="11">兩名玩家決一死戰。</e>
+    <e id="12">對戰</e>
+    <e id="13">對抗其他玩家的標準對戰。</e>
+    <e id="14">1對1</e>
+    <e id="15">兩名玩家決死戰。</e>
+</Locale>

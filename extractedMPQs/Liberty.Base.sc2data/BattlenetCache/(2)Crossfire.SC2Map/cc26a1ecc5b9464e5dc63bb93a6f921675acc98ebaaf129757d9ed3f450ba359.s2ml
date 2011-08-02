@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="zhTW">
+    <e id="1">交叉火力</e>
+    <e id="2">在這張遼闊的地圖上，有很多條路徑可以通往敵方基地。機動性的軍隊是守住額外礦源的關鍵。透過薩爾納加監視塔可以監控許多重要的地點。</e>
+    <e id="3">艾爾（市區）</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">自訂</e>
+    <e id="7">所有設定皆可自訂。</e>
+    <e id="8">自訂</e>
+    <e id="9">所有設定皆可自訂。</e>
+    <e id="10">對戰 - 1對1</e>
+    <e id="11">兩名玩家決一死戰。</e>
+    <e id="12">對戰</e>
+    <e id="13">對抗其他玩家的標準對戰。</e>
+    <e id="14">1對1</e>
+    <e id="15">兩名玩家決死戰。</e>
+</Locale>

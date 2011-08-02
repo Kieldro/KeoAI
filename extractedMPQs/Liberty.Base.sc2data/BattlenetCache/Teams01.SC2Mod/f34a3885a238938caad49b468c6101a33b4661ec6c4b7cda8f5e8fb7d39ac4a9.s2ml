@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="itIT">
+    <e id="1">Squadre 01 (Mod)</e>
+    <e id="2">Squadre 01 (Mod)</e>
+    <e id="3">Colore</e>
+    <e id="4">Rosso</e>
+    <e id="5">Blu</e>
+    <e id="6">Turchese</e>
+    <e id="7">Viola</e>
+    <e id="8">Giallo</e>
+    <e id="9">Arancione</e>
+    <e id="10">Verde</e>
+    <e id="11">Rosa chiaro</e>
+    <e id="12">Squadra</e>
+    <e id="13">Squadra 1</e>
+    <e id="14">Squadre</e>
+    <e id="15">1 squadra</e>
+    <e id="16">Squadre personalizzate</e>
+    <e id="17">Squadra</e>
+    <e id="18">Squadra 1</e>
+    <e id="19">Squadra</e>
+    <e id="20">Squadra 1</e>
+</Locale>

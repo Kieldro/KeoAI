@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="esES">
+    <e id="1">Cavernas Xel'Naga</e>
+    <e id="2">La expansión natural es vulnerable a los ataques. Las demás expansiones son aún más difíciles de defender. Las torres Xel'Naga aportan visión sobre una gran parte del campo de batalla.</e>
+    <e id="3">Ulaan (cueva)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Personalizada</e>
+    <e id="7">Todos los ajustes se pueden personalizar.</e>
+    <e id="8">Personalizada</e>
+    <e id="9">Todos los ajustes se pueden personalizar.</e>
+    <e id="10">Refriega 1 vs 1</e>
+    <e id="11">Dos jugadores luchan a muerte.</e>
+    <e id="12">Refriega</e>
+    <e id="13">Una refriega normal contra otros jugadores.</e>
+    <e id="14">1 vs 1</e>
+    <e id="15">Dos jugadores luchan a muerte.</e>
+</Locale>

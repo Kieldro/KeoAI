@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Catalog>
+    <CAchievement default="1" id="ECONOMY" parent="COMBAT">
+        <Category value="Achievement/Category/Combat/Economy"/>
+    </CAchievement>
+    <CAchievement default="1" id="MELEECOMBAT" parent="COMBAT">
+        <Category value="Achievement/Category/Combat/MeleeCombat"/>
+    </CAchievement>
+    <CAchievement default="1" id="LEAGUECOMBAT" parent="COMBAT">
+        <Category value="Achievement/Category/Combat/LeagueCombat"/>
+    </CAchievement>
+    <CAchievement default="1" id="GUIDEONE" parent="EXPLORATION">
+        <Category value="Achievement/Category/Exploration/GuideOne"/>
+    </CAchievement>
+    <CAchievement default="1" id="GUIDETWO" parent="EXPLORATION">
+        <Category value="Achievement/Category/Exploration/GuideTwo"/>
+    </CAchievement>
+    <CAchievement default="1" id="GUIDETHREE" parent="EXPLORATION">
+        <Category value="Achievement/Category/Exploration/GuideThree"/>
+    </CAchievement>
+    <CAchievement id="Challenge_Meta_GoldCollection" parent="CHALLENGE">
+        <TermTable index="0" value="Challenge_Meta_GoldCollection_1"/>
+        <TermTable value="Challenge_Meta_GoldCollection_2"/>
+        <TermTable value="Challenge_Meta_GoldCollection_3"/>
+        <TermTable value="Challenge_Meta_GoldCollection_4"/>
+        <TermTable value="Challenge_Meta_GoldCollection_5"/>
+        <TermTable value="Challenge_Meta_GoldCollection_6"/>
+        <TermTable value="Challenge_Meta_GoldCollection_7"/>
+        <TermTable value="Challenge_Meta_GoldCollection_8"/>
+        <TermTable value="Challenge_Meta_GoldCollection_9"/>
+    </CAchievement>
+    <CAchievement id="Combat_Exploration_FreeForAllCrusher" parent="GUIDETHREE"/>
+    <CAchievement id="Combat_Mechanic_KillTransport">
+        <Filters index="MapMelee" value="1"/>
+        <Filters index="MatchAnonymous" value="1"/>
+        <Filters index="MatchMulti" value="1"/>
+        <Filters index="MatchNoHandicaps" value="1"/>
+        <Filters index="MatchRanked" value="1"/>
+    </CAchievement>
+    <CAchievement id="Combat_Meta_Economy" parent="ECONOMY">
+        <TermTable index="0" value="Challenge_Meta_Economy_1"/>
+        <TermTable value="Challenge_Meta_Economy_2"/>
+        <TermTable value="Challenge_Meta_Economy_3"/>
+        <TermTable value="Challenge_Meta_Economy_4"/>
+        <TermTable value="Challenge_Meta_Economy_5"/>
+        <TermTable value="Challenge_Meta_Economy_6"/>
+        <TermTable value="Challenge_Meta_Economy_7"/>
+        <TermTable value="Challenge_Meta_Economy_8"/>
+        <TermTable value="Challenge_Meta_Economy_9"/>
+    </CAchievement>
+    <CAchievement id="Combat_Meta_LeagueCombat" parent="LEAGUECOMBAT">
+        <TermTable index="0" value="Challenge_Meta_LeagueCombat_1"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_2"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_3"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_4"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_5"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_6"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_7"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_8"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_9"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_10"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_11"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_12"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_13"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_14"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_15"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_16"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_17"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_18"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_19"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_20"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_21"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_22"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_23"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_24"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_25"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_26"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_27"/>
+        <TermTable value="Challenge_Meta_LeagueCombat_28"/>
+    </CAchievement>
+    <CAchievement id="Combat_Meta_MeleeCombat" parent="MELEECOMBAT">
+        <TermTable index="0" value="Challenge_Meta_MeleeCombat_1"/>
+        <TermTable value="Challenge_Meta_MeleeCombat_2"/>
+        <TermTable value="Challenge_Meta_MeleeCombat_3"/>
+        <TermTable value="Challenge_Meta_MeleeCombat_4"/>
+        <TermTable value="Challenge_Meta_MeleeCombat_5"/>
+        <TermTable value="Challenge_Meta_MeleeCombat_6"/>
+        <TermTable value="Challenge_Meta_MeleeCombat_7"/>
+        <TermTable value="Challenge_Meta_MeleeCombat_8"/>
+        <TermTable value="Challenge_Meta_MeleeCombat_9"/>
+        <TermTable value="Challenge_Meta_MeleeCombat_10"/>
+        <TermTable value="Challenge_Meta_MeleeCombat_11"/>
+    </CAchievement>
+    <!--=========================================================================================-->
+    <!-- Basic Training -->
+    <CAchievement id="Combat_BasicTraining_Marines" parent="ECONOMY">
+        <Race value="Terr"/>
+        <TermTable index="0" value="Combat_BasicTraining_MarinesTime"/>
+        <TermTable value="Combat_BasicTraining_MarinesCount"/>
+    </CAchievement>
+    <CAchievement id="Combat_BasicTraining_Zerglings" parent="ECONOMY">
+        <Race value="Zerg"/>
+        <TermTable index="0" value="Combat_BasicTraining_ZerglingsTime"/>
+        <TermTable value="Combat_BasicTraining_ZerglingsCount"/>
+    </CAchievement>
+    <CAchievement id="Combat_BasicTraining_Zealots" parent="ECONOMY">
+        <Race value="Prot"/>
+        <TermTable index="0" value="Combat_BasicTraining_ZealotsTime"/>
+        <TermTable value="Combat_BasicTraining_ZealotsCount"/>
+    </CAchievement>
+    <!--=========================================================================================-->
+    <!-- Fast Tier 2 -->
+    <CAchievement id="Combat_FastTier2_Factory" parent="ECONOMY">
+        <Race value="Terr"/>
+        <TermTable index="0" value="Combat_FastTier2_FactoryTime"/>
+        <TermTable value="Combat_FastTier2_FactoryCount"/>
+    </CAchievement>
+    <CAchievement id="Combat_FastTier2_Lair" parent="ECONOMY">
+        <Race value="Zerg"/>
+        <TermTable index="0" value="Combat_FastTier2_LairTime"/>
+        <TermTable value="Combat_FastTier2_LairCount"/>
+    </CAchievement>
+    <CAchievement id="Combat_FastTier2_TwilightCouncil" parent="ECONOMY">
+        <Race value="Prot"/>
+        <TermTable index="0" value="Combat_FastTier2_TwilightCouncilTime"/>
+        <TermTable value="Combat_FastTier2_TwilightCouncilCount"/>
+    </CAchievement>
+    <!--=========================================================================================-->
+    <!-- Low Float -->
+    <CAchievement id="Combat_LowFloat" parent="LEAGUECOMBAT">
+        <TermTable index="0" value="Combat_LowFloat_Minerals"/>
+        <TermTable value="Combat_LowFloat_Vespene"/>
+        <Flags index="Victory" value="1"/>
+    </CAchievement>
+    <!--=========================================================================================-->
+    <!-- Low Idle -->
+    <CAchievement id="Combat_LowIdle" parent="LEAGUECOMBAT">
+        <Flags index="Victory" value="1"/>
+    </CAchievement>
+    <!--=========================================================================================-->
+    <!-- Infrastructure -->
+    <CAchievement id="Combat_Infrastructure_Terran" parent="LEAGUECOMBAT">
+        <Race value="Terr"/>
+        <TermTable index="0" value="Combat_Infrastructure_TerranCount"/>
+    </CAchievement>
+    <CAchievement id="Combat_Infrastructure_Protoss" parent="LEAGUECOMBAT">
+        <Race value="Prot"/>
+        <TermTable index="0" value="Combat_Infrastructure_ProtossCount"/>
+    </CAchievement>
+    <CAchievement id="Combat_Infrastructure_Zerg" parent="LEAGUECOMBAT">
+        <Race value="Zerg"/>
+        <TermTable index="0" value="Combat_Infrastructure_ZergCount"/>
+    </CAchievement>
+    <!--=========================================================================================-->
+    <!-- Map Control -->
+    <CAchievement id="Combat_MapControl_DestroyConstructingTownHall" parent="LEAGUECOMBAT"/>
+    <!--=========================================================================================-->
+    <!-- Economy -->
+    <CAchievement id="Combat_Economy_CancelConstructionUnderFire" parent="MELEECOMBAT"/>
+    <!--=========================================================================================-->
+    <!-- Fast expand -->
+    <CAchievement id="Combat_FastExpand" parent="ECONOMY">
+        <TermTable index="0" value="Combat_FastExpand_Time"/>
+        <TermTable value="Combat_FastExpand_BuildingCount"/>
+    </CAchievement>
+    <!--=========================================================================================-->
+    <!-- Mechanics -->
+    <CAchievement id="Combat_Mechanic_WatchTower" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Mechanic_HighYield" parent="ECONOMY"/>
+    <CAchievement id="Combat_Mechanic_WarpIn" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Mechanic_Detection" parent="MELEECOMBAT"/>
+    <CAchievement id="Combat_Mechanic_Shields" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Mechanic_Repair" parent="MELEECOMBAT"/>
+    <CAchievement id="Combat_Mechanic_RoachRegen" parent="LEAGUECOMBAT"/>
+    <!--=========================================================================================-->
+    <!-- Micro -->
+    <CAchievement id="Combat_Micro_HotPickup" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Micro_Unit20Kills" parent="LEAGUECOMBAT"/>
+    <!--=========================================================================================-->
+    <!-- Spells -->
+    <CAchievement id="Combat_Spells_MULE" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Spells_Nuke" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Spells_Snipe" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Spells_Heal" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Spells_AutoTurretSCVKills" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Spells_Seeker" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Spells_Yamato" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Spells_SpawnLarva" parent="LEAGUECOMBAT">
+        <Flags index="Local" value="0"/>
+    </CAchievement>
+    <CAchievement id="Combat_Spells_Changeling" parent="LEAGUECOMBAT">
+        <Flags index="Local" value="0"/>
+    </CAchievement>
+    <CAchievement id="Combat_Spells_InfestedTerrans" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Spells_NeuralParasite" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Spells_ZealotWhileZerg" parent="MELEECOMBAT">
+        <Race value="Zerg"/>
+    </CAchievement>
+    <CAchievement id="Combat_Spells_Blink" parent="MELEECOMBAT"/>
+    <CAchievement id="Combat_Spells_HallucinationAbsorb" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Spells_HallucinationCount" parent="MELEECOMBAT"/>
+    <CAchievement id="Combat_Spells_HighTemplarKills" parent="MELEECOMBAT"/>
+    <CAchievement id="Combat_Spells_PhasePrism" parent="MELEECOMBAT"/>
+    <CAchievement id="Combat_Spells_Vortex" parent="MELEECOMBAT"/>
+    <!--=========================================================================================-->
+    <!-- Teammatery -->
+    <CAchievement id="Combat_Teammatery_Repair" parent="ECONOMY"/>
+    <CAchievement id="Combat_Teammatery_Heal" parent="LEAGUECOMBAT"/>
+    <!--=========================================================================================-->
+    <!-- Uncategorized -->
+    <CAchievement id="Combat_DodgeSeeker" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_Meatgrinder" parent="MELEECOMBAT"/>
+    <CAchievement id="Combat_NoCounterAttacks" parent="LEAGUECOMBAT"/>
+    <CAchievement id="Combat_TownHallDestroyer" parent="LEAGUECOMBAT"/>
+    <!--=========================================================================================-->
+    <!-- Challenges -->
+    <CAchievement id="Challenge_MasterAchievement_Basic" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_MasterAchievement_Mastery" parent="CHALLENGE">
+        <Supersedes value="Challenge_MasterAchievement_Basic"/>
+    </CAchievement>
+    <CAchievement id="Challenge_MasterAchievement_Dominance" parent="CHALLENGE">
+        <Supersedes value="Challenge_MasterAchievement_Mastery"/>
+    </CAchievement>
+    <CAchievement id="Challenge_TerranCombat_Basic" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_TerranCombat_Mastery" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_TerranCombat_Dominance" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_ProtossCombat_Basic" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_ProtossCombat_Mastery" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_ProtossCombat_Dominance" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_ZergCombat_Basic" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_ZergCombat_Mastery" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_ZergCombat_Dominance" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_TerranCovertOps_Basic" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_TerranCovertOps_Mastery" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_TerranCovertOps_Dominance" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_ProtossPsionics_Basic" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_ProtossPsionics_Mastery" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_ProtossPsionics_Dominance" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_ZergInfestation_Basic" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_ZergInfestation_Mastery" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_ZergInfestation_Dominance" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_AdvancedCommand_Basic" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_AdvancedCommand_Mastery" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_AdvancedCommand_Dominance" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_Economy_Basic" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_Economy_Mastery" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_Economy_Dominance" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_RushDefense_Basic" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_RushDefense_Mastery" parent="CHALLENGE"/>
+    <CAchievement id="Challenge_RushDefense_Dominance" parent="CHALLENGE"/>
+</Catalog>

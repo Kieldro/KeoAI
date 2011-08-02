@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="enUS">
+    <e id="1">Blistering Sands</e>
+    <e id="2">There are three paths to the enemy. Controlling the side paths will grant access to additional resources. Controlling the center will give access to a shorter attack distance.</e>
+    <e id="3">Mar Sara (Wasteland)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Custom</e>
+    <e id="7">All settings may be customized.</e>
+    <e id="8">Custom</e>
+    <e id="9">All settings may be customized.</e>
+    <e id="10">Melee 1v1</e>
+    <e id="11">Two players fight to the death.</e>
+    <e id="12">Melee</e>
+    <e id="13">Standard melee game against other players.</e>
+    <e id="14">1v1</e>
+    <e id="15">Two players fight to the death.</e>
+</Locale>

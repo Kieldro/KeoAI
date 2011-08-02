@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="zhCN">
+    <e id="1">萨尔纳加秘窟</e>
+    <e id="2">常规分矿点易受攻击。较远位置的分矿点则更难把守。萨尔纳加瞭望塔的视野可以覆盖战场的大片区域。</e>
+    <e id="3">乌兰(山洞)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">自定义</e>
+    <e id="7">所有设置均可自定义。</e>
+    <e id="8">自定义</e>
+    <e id="9">所有设置均可自定义。</e>
+    <e id="10">对战 1v1</e>
+    <e id="11">2名玩家的生死决战。</e>
+    <e id="12">对战</e>
+    <e id="13">同其他玩家进行标准对战游戏。</e>
+    <e id="14">1v1</e>
+    <e id="15">2名玩家的生死决战。</e>
+</Locale>

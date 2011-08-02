@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="enUS">
+    <e id="1">Desert Oasis</e>
+    <e id="2">This large map makes early attacks more difficult. Xel'Naga Towers observe both the long ground and shorter air paths. Islands provide a hidden way to gain additional resources. </e>
+    <e id="3">Xil (Wasteland)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Custom</e>
+    <e id="7">All settings may be customized.</e>
+    <e id="8">Custom</e>
+    <e id="9">All settings may be customized.</e>
+    <e id="10">Melee 1v1</e>
+    <e id="11">Two players fight to the death.</e>
+    <e id="12">Melee</e>
+    <e id="13">Standard melee game against other players.</e>
+    <e id="14">1v1</e>
+    <e id="15">Two players fight to the death.</e>
+</Locale>

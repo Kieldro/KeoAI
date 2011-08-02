@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="deDE">
+    <e id="1">Elysium</e>
+    <e id="2">Gewundene Plateaus sind in der Mitte miteinander verbunden und ermöglichen Zugriff auf viele Ressourcen. Wählen Sie Ihren Pfad weise, denn die Wege sind lang.</e>
+    <e id="3">Typhon (Ödland)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Benutzerdefiniert</e>
+    <e id="7">Alle Einstellungen können vom Benutzer konfiguriert werden.</e>
+    <e id="8">Benutzerdefiniert</e>
+    <e id="9">Alle Einstellungen können vom Benutzer konfiguriert werden.</e>
+    <e id="10">Nahkampf - 1vs1</e>
+    <e id="11">Zwei Spieler kämpfen bis zum Tod.</e>
+    <e id="12">Nahkampf</e>
+    <e id="13">Normale Spiele der Kategorie Nahkampf gegen andere Spieler.</e>
+    <e id="14">1vs1</e>
+    <e id="15">Zwei Spieler kämpfen bis zum Tod.</e>
+    <e id="16">Nahkampf - Jeder gegen Jeden</e>
+    <e id="17">Alle Spieler kämpfen, bis nur noch einer verbleibt.</e>
+    <e id="18">Nahkampf</e>
+    <e id="19">Normale Spiele der Kategorie Nahkampf gegen andere Spieler.</e>
+    <e id="20">Jeder gegen Jeden</e>
+    <e id="21">Alle Spielern kämpfen, bis nur noch einer verbleibt.</e>
+</Locale>

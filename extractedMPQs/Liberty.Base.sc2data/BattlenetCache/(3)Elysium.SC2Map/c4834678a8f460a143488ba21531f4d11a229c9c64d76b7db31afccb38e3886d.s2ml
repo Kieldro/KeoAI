@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="ptBR">
+    <e id="1">Elísio</e>
+    <e id="2">Platôs em espiral se conectam no centro, permitindo acesso a recursos escalonados. Escolha sua rota com atenção, pois o caminho é longo!</e>
+    <e id="3">Tífon (Terra desolada)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Personalizado</e>
+    <e id="7">Todas as configurações podem ser personalizadas.</e>
+    <e id="8">Personalizado</e>
+    <e id="9">Todas as configurações podem ser personalizadas.</e>
+    <e id="10">Corpo-a-corpo 1x1</e>
+    <e id="11">Dois jogadores lutam até morrer.</e>
+    <e id="12">Corpo-a-corpo</e>
+    <e id="13">Jogo corpo-a-corpo padrão contra outros jogadores.</e>
+    <e id="14">1x1</e>
+    <e id="15">Dois jogadores lutam até morrer.</e>
+    <e id="16">Corpo-a-corpo - TCT</e>
+    <e id="17">Todos os jogadores lutam até ficar um.</e>
+    <e id="18">Corpo-a-corpo</e>
+    <e id="19">Jogo corpo-a-corpo padrão contra outros jogadores.</e>
+    <e id="20">TCT</e>
+    <e id="21">Todos os jogadores lutam até ficar um.</e>
+</Locale>

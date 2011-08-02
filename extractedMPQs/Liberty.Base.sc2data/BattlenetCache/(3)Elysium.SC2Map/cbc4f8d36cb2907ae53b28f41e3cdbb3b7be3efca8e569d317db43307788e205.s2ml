@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="esMX">
+    <e id="1">Elisio</e>
+    <e id="2">Las mesetas espiraladas se interconectan en el centro, lo que brinda acceso a los recursos escalonados. ¡Elige tu sendero sabiamente, es un largo camino!</e>
+    <e id="3">Tifón (Páramos)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Personalizado</e>
+    <e id="7">Todas las configuraciones se pueden personalizar.</e>
+    <e id="8">Personalizado</e>
+    <e id="9">Todas las configuraciones se pueden personalizar.</e>
+    <e id="10">Melé 1 vs. 1</e>
+    <e id="11">Dos jugadores luchan a muerte.</e>
+    <e id="12">Melé</e>
+    <e id="13">Partida de melé estándar contra otros jugadores.</e>
+    <e id="14">Melé 1 vs. 1</e>
+    <e id="15">Dos jugadores luchan a muerte.</e>
+    <e id="16">Melé Todos contra todos</e>
+    <e id="17">Todos los jugadores luchan hasta que quede sólo uno.</e>
+    <e id="18">Melé</e>
+    <e id="19">Partida de melé estándar contra otros jugadores.</e>
+    <e id="20">Melé todos contra todos</e>
+    <e id="21">Todos los jugadores luchan hasta que quede sólo uno.</e>
+</Locale>

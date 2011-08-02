@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="esMX">
+    <e id="1">Novato - Estepas de guerra</e>
+    <e id="2">Sendero directo para atacar a tu enemigo. Los senderos laterales ofrecen recursos adicionales. Las rocas proporcionan acceso a rutas de ataque sorpresa. Las rocas protegen la base de los ataques enemigos tempranos.</e>
+    <e id="3">Bel'Shir (Jungla)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Personalizado</e>
+    <e id="7">Todas las configuraciones se pueden personalizar.</e>
+    <e id="8">Personalizado</e>
+    <e id="9">Todas las configuraciones se pueden personalizar.</e>
+    <e id="10">Melé 1 vs. 1</e>
+    <e id="11">Dos jugadores luchan a muerte.</e>
+    <e id="12">Melé</e>
+    <e id="13">Partida de melé estándar contra otros jugadores.</e>
+    <e id="14">Melé 1 vs. 1</e>
+    <e id="15">Dos jugadores luchan a muerte.</e>
+</Locale>

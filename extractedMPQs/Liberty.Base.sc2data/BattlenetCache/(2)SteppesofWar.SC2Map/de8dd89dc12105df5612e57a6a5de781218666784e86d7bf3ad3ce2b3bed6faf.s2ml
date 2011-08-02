@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="plPL">
+    <e id="1">Wojenne stepy</e>
+    <e id="2">Do przeciwnika prowadzi prosta ścieżka, bocznymi dotrzesz do dodatkowych złóż surowców. Skały blokują trasy do ataku z zaskoczenia.</e>
+    <e id="3">Bel'Shir (dżungla)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Niestandardowe</e>
+    <e id="7">Wszystkie ustawienia można dostosować.</e>
+    <e id="8">Niestandardowe</e>
+    <e id="9">Wszystkie ustawienia można dostosować.</e>
+    <e id="10">Starcie – 1 na 1</e>
+    <e id="11">Dwóch graczy toczy śmiertelny pojedynek.</e>
+    <e id="12">Starcie</e>
+    <e id="13">Standardowa potyczka z innymi graczami.</e>
+    <e id="14">1-na-1</e>
+    <e id="15">Dwoje graczy walczy na śmierć i życie.</e>
+</Locale>

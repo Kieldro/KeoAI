@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="zhCN">
+    <e id="1">世界舰船</e>
+    <e id="2">通往敌方基地的主通道横穿地图的中间地带。其它的进攻路线处于萨尔纳加瞭望塔视野的监视之下，且有岩石的阻挡。悄然登陆小岛可收获额外的资源。</e>
+    <e id="3">乌尔纳（萨尔纳加世界舰船）</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">自定义</e>
+    <e id="7">所有设置均可自定义。</e>
+    <e id="8">自定义</e>
+    <e id="9">所有设置均可自定义。</e>
+    <e id="10">对战 1v1</e>
+    <e id="11">2名玩家的生死决战。</e>
+    <e id="12">对战</e>
+    <e id="13">同其他玩家进行标准对战游戏。</e>
+    <e id="14">1v1</e>
+    <e id="15">2名玩家的生死决战。</e>
+</Locale>

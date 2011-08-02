@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="ptBR">
+    <e id="1">Nave Mundo</e>
+    <e id="2">Há um caminho principal até o inimigo que dá voltas pelo centro. Rotas de ataque adicionais são vigiadas por Torres Xel'Naga e protegidas por rochas. Ilhas oferecem uma maneira discreta de obter recursos adicionais.</e>
+    <e id="3">Ulnar (nave do mundo Xel'Naga)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Personalizado</e>
+    <e id="7">Todas as configurações podem ser personalizadas.</e>
+    <e id="8">Personalizado</e>
+    <e id="9">Todas as configurações podem ser personalizadas.</e>
+    <e id="10">Corpo-a-corpo 1x1</e>
+    <e id="11">Dois jogadores lutam até morrer.</e>
+    <e id="12">Corpo-a-corpo</e>
+    <e id="13">Jogo corpo-a-corpo padrão contra outros jogadores.</e>
+    <e id="14">1x1</e>
+    <e id="15">Dois jogadores lutam até morrer.</e>
+</Locale>

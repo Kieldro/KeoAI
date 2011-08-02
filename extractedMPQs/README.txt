@@ -1,0 +1,1 @@
+These are only for easy reference to libraries compressed in SC2 MPQs and may be out of date.

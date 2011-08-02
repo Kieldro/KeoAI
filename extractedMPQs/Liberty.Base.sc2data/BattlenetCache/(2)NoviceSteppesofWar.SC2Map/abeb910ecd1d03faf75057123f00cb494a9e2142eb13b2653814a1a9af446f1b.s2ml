@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="enUS">
+    <e id="1">Novice Steppes of War</e>
+    <e id="2">There is a straight path to attack your enemy. Side paths offer additional resources. Rocks offer access to surprise attack routes. Rocks protect your base from early enemy attacks.</e>
+    <e id="3">Bel'Shir (Jungle)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Custom</e>
+    <e id="7">All settings may be customized.</e>
+    <e id="8">Custom</e>
+    <e id="9">All settings may be customized.</e>
+    <e id="10">Melee 1v1</e>
+    <e id="11">Two players fight to the death.</e>
+    <e id="12">Melee</e>
+    <e id="13">Standard melee game against other players.</e>
+    <e id="14">1v1</e>
+    <e id="15">Two players fight to the death.</e>
+</Locale>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="enUS">
+    <e id="1">Teams 01 (Mod)</e>
+    <e id="2">Teams 01 (Mod)</e>
+    <e id="3">Color</e>
+    <e id="4">Red</e>
+    <e id="5">Blue</e>
+    <e id="6">Teal</e>
+    <e id="7">Purple</e>
+    <e id="8">Yellow</e>
+    <e id="9">Orange</e>
+    <e id="10">Green</e>
+    <e id="11">Light Pink</e>
+    <e id="12">Team</e>
+    <e id="13">Team 1</e>
+    <e id="14">Teams</e>
+    <e id="15">1 Team</e>
+    <e id="16">Custom Teams</e>
+    <e id="17">Team</e>
+    <e id="18">Team 1</e>
+    <e id="19">Team</e>
+    <e id="20">Team 1</e>
+</Locale>

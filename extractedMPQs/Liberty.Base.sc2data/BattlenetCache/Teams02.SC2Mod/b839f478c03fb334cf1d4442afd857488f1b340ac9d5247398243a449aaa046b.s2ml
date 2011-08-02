@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="esES">
+    <e id="1">Equipos 02 (Mod)</e>
+    <e id="2">Equipos 02 (Mod)</e>
+    <e id="3">Color</e>
+    <e id="4">Rojo</e>
+    <e id="5">Azul</e>
+    <e id="6">Azul claro</e>
+    <e id="7">Morado</e>
+    <e id="8">Amarillo</e>
+    <e id="9">Naranja</e>
+    <e id="10">Verde</e>
+    <e id="11">Rosa claro</e>
+    <e id="12">Equipo</e>
+    <e id="13">Equipo 1</e>
+    <e id="14">Equipo 2</e>
+    <e id="15">Equipos</e>
+    <e id="16">2 equipos</e>
+    <e id="17">Equipos personalizados</e>
+    <e id="18">Equipo</e>
+    <e id="19">Equipo 1</e>
+    <e id="20">Equipo 2</e>
+    <e id="21">Equipo 1</e>
+    <e id="22">Equipo 2</e>
+    <e id="23">Equipo</e>
+    <e id="24">Equipo 1</e>
+    <e id="25">Equipo 2</e>
+    <e id="26">Equipo 1</e>
+    <e id="27">Equipo 2</e>
+</Locale>

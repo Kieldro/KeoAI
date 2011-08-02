@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="ptBR">
+    <e id="1">Equipes 02 (Mód)</e>
+    <e id="2">Equipes 02 (Mód)</e>
+    <e id="3">Cor</e>
+    <e id="4">Vermelho</e>
+    <e id="5">Azul</e>
+    <e id="6">Azul petróleo</e>
+    <e id="7">Roxo</e>
+    <e id="8">Amarelo</e>
+    <e id="9">Laranja</e>
+    <e id="10">Verde</e>
+    <e id="11">Rosa claro</e>
+    <e id="12">Equipe</e>
+    <e id="13">1 de equipes</e>
+    <e id="14">2 de equipes</e>
+    <e id="15">Equipes</e>
+    <e id="16">2 Equipes</e>
+    <e id="17">Equipes personalizadas</e>
+    <e id="18">Equipe</e>
+    <e id="19">1 de equipes</e>
+    <e id="20">2 de equipes</e>
+    <e id="21">1 de equipes</e>
+    <e id="22">2 de equipes</e>
+    <e id="23">Equipe</e>
+    <e id="24">1 de equipes</e>
+    <e id="25">2 de equipes</e>
+    <e id="26">1 de equipes</e>
+    <e id="27">2 de equipes</e>
+</Locale>

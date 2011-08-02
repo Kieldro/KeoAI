@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Locale region="itIT">
+    <e id="1">Zona d'incenerimento</e>
+    <e id="2">Una strada principale conduce al nemico. Qui, l'uso di torri xel'naga e fogliame sarà determinante per la vittoria. Le rocce proteggono un altro percorso utilizzabile per gli attacchi a sorpresa.</e>
+    <e id="3">Redstone (vulcanico)</e>
+    <e id="4">GameCategory/Custom_Custom/Name</e>
+    <e id="5">GameCategory/Custom_Custom/Desc</e>
+    <e id="6">Personalizzazione</e>
+    <e id="7">Tutte le impostazioni possono essere personalizzate.</e>
+    <e id="8">Personalizzazione</e>
+    <e id="9">Tutte le impostazioni possono essere personalizzate.</e>
+    <e id="10">Scontro 1v1</e>
+    <e id="11">Due giocatori si sfidano all'ultimo sangue.</e>
+    <e id="12">Scontro</e>
+    <e id="13">Partita standard contro altri giocatori.</e>
+    <e id="14">1v1</e>
+    <e id="15">Due giocatori si sfidano all'ultimo sangue.</e>
+</Locale>
